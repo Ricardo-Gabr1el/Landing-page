@@ -1,0 +1,273 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.darkbg {
+    background-image: url(../img/endless-constellation.svg);
+    background-position: center center;
+    background-size: 20%;
+    color:aliceblue;
+}
+
+.lightbg {
+    background-image: url(../img/confetti-doodles.svg);
+    background-position: center center;
+    background-size: auto;
+    color: #000000;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.show-grid {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-intro {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    max-width: 40rem;
+    max-height: fit-content;
+    margin: 3rem auto;
+    border-radius: 2rem;
+    color: #000000;
+    text-align: center;
+    padding: 0rem;
+}
+
+.container-intro h1 {
+    display: block;
+    font-size: 4rem;
+    margin: 0;
+    max-height: fit-content;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.container-intro p {
+    font-size: 1.9rem;
+    padding: 1rem;
+}
+
+.imgintrocontainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.container-aboutus {
+    display: flex;
+    margin: auto;
+    max-width: 80%;
+    padding: 3rem 0 3rem 0;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    height: auto;
+    max-width: 100%;
+}
+
+.galleryimg1 {
+    scale: 0.8;
+}
+
+.galleryimg2 {
+    scale: 0.9;
+}
+
+.galleryimg3 {
+    scale: 0.8;
+}
+
+.galleryimg1, .galleryimg2, .galleryimg3 {
+    max-width: 51.2rem;
+    max-height: 102.4rem;
+    width: 100%;
+    overflow: hidden;
+    transform: scale(0.9);
+    transition: all 300ms ease-in-out;
+    box-shadow: 0px 0px 5rem #fff;
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.galleryimg1:hover, .galleryimg2:hover, .galleryimg3:hover {
+    transform: scale(1.1);
+    transition: all 300ms ease-in-out;
+    
+}
+
+div.gallerytitle {
+    margin: auto;
+    padding-top: 5em;
+    text-align: center;
+}
+
+div.tabelatext {
+    max-width: 50rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.tabelatext h1 {
+    padding: 3rem;
+    padding-top: 8rem;
+}
+
+div.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabela th, td {
+    border: solid 1px black;
+    padding: 0.5rem;
+}
+
+.tabela table {
+    border-collapse: collapse;
+}
+
+.tabela tfoot {
+    background-color: rgb(236, 236, 236);
+}
+
+.tabela tfoot td:nth-child(1) {
+    border-right: none;
+}
+
+.tabela tfoot td:nth-child(2) {
+    border-right: none;
+    border-left: none;
+}
+
+.tabela tfoot td:nth-child(3) {
+    border-right: none;
+    border-left: none;
+}
+
+div.contacttext {
+    max-width: 50rem;
+    margin: auto;
+    text-align: left;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    margin-left: 30rem;
+}
+
+.contacttext h1 {
+    padding-bottom: 3rem;
+}
+
+.contactimg {
+    scale: 0.6;
+    margin-right: 30rem;
+}
+
+div.contact-form {
+    grid-column: span 2;
+}
+
+.contact-form .form-grid {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.form-grid legend {
+    font-size: 3rem;
+    padding: 1rem;
+    font-style: italic;
+}
+.form-group {
+    flex: 1 1 400px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 2rem;
+    padding: 0.3rem;
+}
+
+.form-group input, .form-group textarea {
+    border: none;
+    background-color: #fff;
+    padding: 2rem 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.contact-form {
+    padding: 10rem;
+}
+
+.form-group button {
+    border: solid 0.5rem white;
+    color: white;
+    background: none;
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.form-group button:hover {
+    border: solid 0.5rem white;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.random {
+    margin-top: 10rem;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    z-index: 2;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: solid 1px white;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    line-height: 3rem;
+}
