@@ -36,6 +36,7 @@
     color: #000000;
     text-align: center;
     padding: 0rem;
+    scale: 0.95
 }
 
 .container-intro h1 {
@@ -120,7 +121,7 @@ div.container-aboutus {
 
 div.gallerytitle {
     margin: auto;
-    padding-top: 5em;
+    padding-top: 6rem;
     text-align: center;
 }
 
@@ -140,6 +141,11 @@ div.tabela {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem 0 6rem 0
+}
+
+.tabela p {
+    padding: 1rem;
 }
 
 .tabela th, td {
